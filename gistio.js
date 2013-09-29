@@ -23,7 +23,7 @@
 	    var gistId = match[1];
 	    var gistUrl = "https://api.github.com/gists/".concat(gistId);
 	    var testUrl = "gist.json";
-	    $.getJSON(testUrl)
+	    $.getJSON(gistUrl)
 		.done(function(gist) {
 		    var mainFile;
 		    for(var file in gist.files) {
