@@ -20,6 +20,15 @@ img {
     max-width: 100%;
 }
 
+pre {
+    overflow-x: auto;
+    line-height: 1;
+}
+
+code {
+   font-family: "Cutive Mono", monospace;
+}
+
 @font-face {
     font-family: 'Alegreya';
     font-style: normal;
