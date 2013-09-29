@@ -1,3 +1,8 @@
+/*
+Copyright 2013 Sadique Ali
+http://blog.sdqali.in
+*/
+
 (function () {
     $(document).ready(function() {
 	var converter = new Showdown.converter();
