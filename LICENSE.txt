@@ -21,7 +21,7 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-The original idea of rendering Gists as blog posts is [Idan Gazit](http://gazit.me/)'s.
+The original idea of rendering Gists as blog posts is Idan Gazit (http://gazit.me/)'s.
 
 This project uses the following fonts under SIL Open Font License, 1.1:
 Cutive Mono by Vernon Adams - https://www.google.com/fonts/specimen/Cutive+Mono
