@@ -49,6 +49,13 @@ blockquote {
     line-height: 1.35;
 }
 
+
+/*
+The following fonts are used under SIL Open Font License, 1.1
+Cutive Mono by Vernon Adams - https://www.google.com/fonts/specimen/Cutive+Mono
+Alegreya by Huerta Tipográfica - https://www.google.com/fonts/specimen/Alegreya
+*/
+
 @font-face {
     font-family: 'Alegreya';
     font-style: normal;
