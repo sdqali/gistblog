@@ -11,20 +11,20 @@
       "filename": "gistfile1.txt",
       "type": "text/plain",
       "language": null,
-      "raw_url": "https://gist.github.com/raw/6756799/994d5fed39a686d91026ffedef9fb37f5a0b0d55/gistfile1.txt",
-      "size": 632,
-      "content": "This is a JavaScript implementation of [Idan Gazit](http://gazit.me/)'s [Gist.io](http://gist.io/).\nTo read more about the motivation for this, please see Idan's description of Gist.io.\nThis is just a port, the original idea is Idan's and inspired from Mike Bostock's [bl.ocks.org](http://bl.ocks.org)\n\n## Usage\n1. [Create a Gist](https://gist.github.com/) and copy the ID. The id will be a number like **6756799** for public gists and a key like **4f0b868e8fd13f77f10e** for private gists.\n1. Read the post at *blog.sdqali.in/gist#gist-id*\n\nThe gist source for this post can be found [here](https://gist.github.com/sdqali/6756799)."
+      "raw_url": "https://gist.github.com/raw/6756799/2d7093c86bb3f330f262001f0701f93e14d2f16d/gistfile1.txt",
+      "size": 744,
+      "content": "This is a JavaScript implementation of [Idan Gazit](http://gazit.me/)'s [Gist.io](http://gist.io/).\nTo read more about the motivation for this, please see Idan's description of Gist.io.\nThis is just a port, the original idea is Idan's and inspired from Mike Bostock's [bl.ocks.org](http://bl.ocks.org)\n\n## Usage\n1. [Create a Gist](https://gist.github.com/) and copy the ID. The id will be a number like **6756799** for public gists and a key like **4f0b868e8fd13f77f10e** for private gists.\n1. Read the post at *blog.sdqali.in/gist#gist-id*\n\nThe gist source for this post can be found [here](https://gist.github.com/sdqali/6756799).\n\nCoded by [Sadique Ali](http://blog.sdqali.in).\nCheckout the [source code](https://github.com/sdqali/gistblog)."
     }
   },
   "public": true,
   "created_at": "2013-09-29T21:37:29Z",
-  "updated_at": "2013-09-29T22:01:47Z",
+  "updated_at": "2013-09-29T22:21:49Z",
   "description": "Gist Blog - Blogging for Hackers",
   "comments": 0,
   "user": {
     "login": "sdqali",
     "id": 179015,
-    "avatar_url": "https://1.gravatar.com/avatar/7e92d8fa80b54b06ad9c97b768c7029f?d=https%3A%2F%2Fidenticons.github.com%2F8dcc0770761a48afe9e66c9cf7bd029f.png",
+    "avatar_url": "https://2.gravatar.com/avatar/7e92d8fa80b54b06ad9c97b768c7029f?d=https%3A%2F%2Fidenticons.github.com%2F8dcc0770761a48afe9e66c9cf7bd029f.png",
     "gravatar_id": "7e92d8fa80b54b06ad9c97b768c7029f",
     "url": "https://api.github.com/users/sdqali",
     "html_url": "https://github.com/sdqali",
@@ -44,6 +44,17 @@
 
   ],
   "history": [
+    {
+      "user": null,
+      "version": "ba671080a4e32418d65585253ae15c78de70f38b",
+      "committed_at": "2013-09-29T22:21:49Z",
+      "change_status": {
+        "total": 5,
+        "additions": 4,
+        "deletions": 1
+      },
+      "url": "https://api.github.com/gists/6756799/ba671080a4e32418d65585253ae15c78de70f38b"
+    },
     {
       "user": null,
       "version": "d8a73541120802f439c052eb5ec8c530326a8fab",
