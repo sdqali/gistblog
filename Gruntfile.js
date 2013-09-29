@@ -5,8 +5,8 @@ module.exports = function(grunt) {
 	compress: {
 	    main: {
 		options: {
-		    archive: 'out/gistblog.tar.gz',
-		    mode: "tgz"
+		    archive: 'gistblog.tar.gz',
+		    mode: 'tgz'
 		},
 		files: [
 		    {
@@ -19,13 +19,12 @@ module.exports = function(grunt) {
 			    'showdown.js',
 			    'LICENSE.txt',
 			    'README.md'
-			],
-			dest: 'out/gistblog'
+			]
 		    }
 		]
 	    }
 	}
     });
 
-    grunt.registerTask('default', []);
+    grunt.registerTask('default', ["compress"]);
 };
