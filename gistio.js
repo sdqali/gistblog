@@ -1,7 +1,20 @@
 (function () {
     $(document).ready(function() {
+	var converter = new Showdown.converter();
+
 	var setContent = function(content) {
 	    $("#content").text(content);
+	};
+
+	var renderGist = function(title, gistFile){
+	    var gistTitle = $("<h1>");
+	    gistTitle.text(title);
+	    $("#content").append(gistTitle);
+
+	    var gistBody = $("<div>");
+	    gistBody.html(converter.makeHtml(gistFile.content));
+
+	    $("#content").append(gistBody);
 	};
 
 	var url = window.location.href;
@@ -17,8 +30,7 @@
 			mainFile = gist.files[file];
 			break;
 		    }
-		    foo = mainFile;
-		    setContent(mainFile.content);
+		    renderGist(gist.description, mainFile);
 		})
 		.fail(function(){
 		    setContent("Failed to load Gist. Please check the ID.");

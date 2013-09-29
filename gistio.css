@@ -1,0 +1,52 @@
+html {
+    background: #fff;
+    color: #333333
+}
+
+h1 {
+    color: red;
+}
+
+article {
+    margin: auto;
+    line-height: 1.4;
+    max-width: 700px;
+    padding: 0px 10px;
+    font-size: 22px;
+    font-family: Alegreya, Georgia, serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Alegreya'), local('Alegreya-Regular'), url(fonts/Alegreya-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Alegreya';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Alegreya Bold'), local('Alegreya-Bold'), url(fonts/Alegreya-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Alegreya Italic'), local('Alegreya-Italic'), url(fonts/Alegreya-Italic.woff) format('woff');
+}
+@font-face {
+    font-family: 'Alegreya';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Alegreya Bold Italic'), local('Alegreya-BoldItalic'), url(fonts/Alegreya-BoldItalic.woff) format('woff');
+}
+@font-face {
+    font-family: 'Cutive Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cutive Mono'), local('CutiveMono-Regular'), url(fonts/CutiveMono-Regular.woff) format('woff');
+}
