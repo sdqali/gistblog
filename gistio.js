@@ -46,8 +46,8 @@ http://blog.sdqali.in
 	    var gistUrl = "https://api.github.com/gists/".concat(gistId);
 	    loadGist(gistUrl);
 	} else {
-	    var testUrl = "gist.json";
-	    loadGist(testUrl);
+	    var gistUrl = "https://api.github.com/gists/6756799";
+	    loadGist(gistUrl);
 	}
     });
 }) ();
