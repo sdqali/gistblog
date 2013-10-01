@@ -49,6 +49,11 @@ blockquote {
     line-height: 1.35;
 }
 
+.footer {
+    margin-top: 45px;
+    font-size: 80%;
+    font-style: italic;
+}
 
 /*
 The following fonts are used under SIL Open Font License, 1.1

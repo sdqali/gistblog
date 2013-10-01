@@ -19,8 +19,12 @@ http://blog.sdqali.in
 
 	    var gistBody = $("<div>");
 	    gistBody.html(converter.makeHtml(gistFile.content));
-
 	    $("#content").append(gistBody);
+
+	    var footer = $("<div>");
+	    footer.attr("class", "footer");
+	    footer.html('<p>Coded by <a href="http://blog.sdqali.in">Sadique Ali</a>. Checkout the <a href="https://github.com/sdqali/gistblog">source code</a>.</p>');
+	    $("#content").append(footer);
 	};
 
 	var loadGist = function(url) {
