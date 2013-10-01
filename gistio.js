@@ -7,24 +7,36 @@ http://blog.sdqali.in
     $(document).ready(function() {
 	var converter = new Showdown.converter();
 
-	var setContent = function(content) {
-	    $("#content").text(content);
-	};
-
-	var renderGist = function(title, gistFile){
+	var renderTitle = function(title) {
 	    var gistTitle = $("<h1>");
 	    gistTitle.text(title);
 	    gistTitle.attr("class", "title");
 	    $("#content").append(gistTitle);
+	};
 
-	    var gistBody = $("<div>");
-	    gistBody.html(converter.makeHtml(gistFile.content));
-	    $("#content").append(gistBody);
-
+	var renderFooter = function() {
 	    var footer = $("<div>");
 	    footer.attr("class", "footer");
 	    footer.html('<p>Coded by <a href="http://blog.sdqali.in">Sadique Ali</a>. Checkout the <a href="https://github.com/sdqali/gistblog">source code</a>.</p>');
 	    $("#content").append(footer);
+	};
+
+	var renderMain = function(content) {
+	    var mainDiv = $("<div>");
+	    mainDiv.html(content);
+	    $("#content").append(mainDiv);
+	};
+
+	var showError = function() {
+	    renderTitle("Gist Blog - Blogging for Hackers");
+	    renderMain("Failed to load Gist. Please check the ID.");
+	    renderFooter();
+	};
+
+	var renderGist = function(title, gistFile){
+	    renderTitle(title);
+	    renderMain(converter.makeHtml(gistFile.content));
+	    renderFooter();
 	};
 
 	var loadGist = function(url) {
@@ -38,7 +50,7 @@ http://blog.sdqali.in
 		    renderGist(gist.description, mainFile);
 		})
 		.fail(function(){
-		    setContent("Failed to load Gist. Please check the ID.");
+		    showError();
 		});
 
 	};
