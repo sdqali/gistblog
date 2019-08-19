@@ -1,6 +1,6 @@
 /*
 Copyright 2013 Sadique Ali
-http://blog.sdqali.in
+http://sadique.io
 */
 
 (function () {
@@ -17,7 +17,7 @@ http://blog.sdqali.in
 	var renderFooter = function() {
 	    var footer = $("<div>");
 	    footer.attr("class", "footer");
-	    footer.html('<p>Coded by <a href="http://blog.sdqali.in">Sadique Ali</a>. Checkout the <a href="https://github.com/sdqali/gistblog">source code</a>.</p>');
+	    footer.html('<p>Coded by <a href="http://sadique.io">Sadique Ali</a>. Checkout the <a href="https://github.com/sdqali/gistblog">source code</a>.</p>');
 	    $("#content").append(footer);
 	};
 
